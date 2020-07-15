@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SOF.Comm\SOF.Comm.csproj" />
+    <ProjectReference Include="..\SOF.Config\SOF.Config.csproj" />
+    <ProjectReference Include="..\SOF.Datas\SOF.Datas.csproj" />
+    <ProjectReference Include="..\SOF.Log\SOF.Log.csproj" />
+    <ProjectReference Include="..\SOF.Utils\SOF.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
