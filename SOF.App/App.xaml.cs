@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using SOF.Log;
 
 namespace SOF.App
 {
@@ -17,7 +18,8 @@ namespace SOF.App
         {
             base.OnStartup(e);
 
-            Log.LogM.GetLogger().Info("StartUP");
+            LogM.GetLogger().Info("StartUP");
+            LogM.GetLogger().Error(new Exception(), "abc={0}", 1);
         }
     }
 }

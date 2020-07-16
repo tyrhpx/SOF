@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\SOF.Comm\SOF.Comm.csproj" />
     <ProjectReference Include="..\SOF.Config\SOF.Config.csproj" />
-    <ProjectReference Include="..\SOF.Datas\SOF.Datas.csproj" />
     <ProjectReference Include="..\SOF.Log\SOF.Log.csproj" />
     <ProjectReference Include="..\SOF.Utils\SOF.Utils.csproj" />
   </ItemGroup>

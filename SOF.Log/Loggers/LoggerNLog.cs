@@ -4,6 +4,9 @@ using System.Text;
 
 namespace SOF.Log.Loggers
 {
+    /// <summary>
+    /// NLog日志记录器
+    /// </summary>
     internal class LoggerNLog : ILog
     {
         private NLog.ILogger Logger = null;
